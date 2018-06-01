@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.DependsOn;
 import org.springframework.scheduling.quartz.SchedulerFactoryBean;
 import org.springframework.scheduling.quartz.SimpleTriggerFactoryBean;
 
@@ -70,6 +71,7 @@ public class QuartzConfiguration {
     /**
      * Return Scheduler Factory Bean - this is the main Quartz Configuration component
      */
+    @DependsOn("flywayInitializer")
     @Bean
     public SchedulerFactoryBean schedulerFactoryBean(ApplicationContext applicationContext) {
 

@@ -1,7 +1,7 @@
 spring:
   datasource:
     continueOnError: true
- #   url: jdbc:mysql://quartz-instance.cmdkmtqq3v6m.us-east-1.rds.amazonaws.com:3306/quartz_db?autoReconnect=true&useSSL=false    
+ #   url: jdbc:mysql://quartz-instance.cmdkmtqq3v6m.us-east-1.rds.amazonaws.com:3306/quartz_db?autoReconnect=true&useSSL=false
  #   username: QuartzRoot
  #   password: QuartzRoot
 

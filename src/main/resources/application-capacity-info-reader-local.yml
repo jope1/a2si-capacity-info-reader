@@ -1,9 +1,9 @@
 spring:
   datasource:
     continueOnError: true
-    url: jdbc:mysql://quartz-instance.cmdkmtqq3v6m.us-east-1.rds.amazonaws.com:3306/quartz_db?autoReconnect=true&useSSL=false    
-    username: QuartzRoot
-    password: QuartzRoot
+    url: jdbc:mysql://quartz.cmdkmtqq3v6m.us-east-1.rds.amazonaws.com:3306/QUARTZ_DB?autoReconnect=true&useSSL=false    
+    username: Pearce
+    password: pearce1234
 
 # Quartz Scheduler config (except for the jobs)
 org:
